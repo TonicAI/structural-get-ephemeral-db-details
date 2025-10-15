@@ -1,0 +1,41 @@
+name: 'Get Ephemeral Database Details'
+description: 'Retrieve ephemeral database connection details from Tonic Structural'
+author: 'Tonic'
+branding:
+  icon: 'database'
+  color: 'blue'
+inputs:
+  structural-url:
+    description: 'Structural API URL'
+    required: false
+    default: 'https://app.tonic.ai'
+  structural-api-key:
+    description: 'Structural API Key'
+    required: true
+  job-id:
+    description: 'ID of job that has an associated ephemeral database'
+    required: true
+outputs:
+  hostname:
+    description: 'Database hostname for connection'
+  port:
+    description: 'Database port for connection'
+  database-name:
+    description: 'Database name for connection'
+  database-username:
+    description: 'Database username for connection'
+  database-password:
+    description: 'Database password for connection'
+  database-type:
+    description: 'Type of database (e.g., MySql, Postgres)'
+  ephemeral-database-name:
+    description: 'Name of the ephemeral database entity'
+  ephemeral-entity-id:
+    description: 'Ephemeral database entity ID'
+  status:
+    description: 'Current status of the database'
+  raw-response:
+    description: 'Full JSON response from the API'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
