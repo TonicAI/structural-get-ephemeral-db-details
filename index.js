@@ -70,10 +70,7 @@ async function run() {
 
     // Set ephemeral database metadata outputs
     core.setOutput('database-entity-id', ephemeralSettings.databaseEntityId || '');
-    core.setOutput('name', ephemeralSettings.name || '');
-    // Set alias outputs for backward compatibility
-    core.setOutput('ephemeral-database-name', ephemeralSettings.name || '');
-    core.setOutput('ephemeral-entity-id', ephemeralSettings.databaseEntityId || '');
+    core.setOutput('entity-name', ephemeralSettings.name || '');
     core.setOutput('status', ephemeralSettings.status || '');
     // Set raw response
     core.setOutput('raw-response', JSON.stringify(ephemeralSettings));

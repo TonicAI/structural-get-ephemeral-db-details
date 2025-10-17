@@ -37,11 +37,11 @@ The type of database (e.g., MySql, Postgres).
 
 ### Ephemeral Database Metadata
 
-### `ephemeral-database-name`
-The name of the ephemeral database entity.
+### `database-entity-id`
+The ID of the database entity in Ephemeral.
 
-### `ephemeral-entity-id`
-The ephemeral database entity ID.
+### `entity-name`
+The name of the ephemeral database entity.
 
 ### `status`
 The current status of the database.
