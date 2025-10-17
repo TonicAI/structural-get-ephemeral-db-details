@@ -28,10 +28,14 @@ outputs:
     description: 'Database password for connection'
   database-type:
     description: 'Type of database (e.g., MySql, Postgres)'
-  ephemeral-database-name:
+  database-entity-id:
+    description: 'ID of the database entity in Ephemeral'
+  name:
     description: 'Name of the ephemeral database entity'
+  ephemeral-database-name:
+    description: 'Name of the ephemeral database entity (alias for name)'
   ephemeral-entity-id:
-    description: 'Ephemeral database entity ID'
+    description: 'Ephemeral database entity ID (alias for database-entity-id)'
   status:
     description: 'Current status of the database'
   raw-response:

@@ -69,6 +69,9 @@ async function run() {
     core.setOutput('database-type', ephemeralSettings.databaseType || '');
 
     // Set ephemeral database metadata outputs
+    core.setOutput('database-entity-id', ephemeralSettings.databaseEntityId || '');
+    core.setOutput('name', ephemeralSettings.name || '');
+    // Set alias outputs for backward compatibility
     core.setOutput('ephemeral-database-name', ephemeralSettings.name || '');
     core.setOutput('ephemeral-entity-id', ephemeralSettings.databaseEntityId || '');
     core.setOutput('status', ephemeralSettings.status || '');
