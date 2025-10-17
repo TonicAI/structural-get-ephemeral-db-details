@@ -1,5 +1,6 @@
 const core = require('@actions/core');
 const https = require('https');
+const { version } = require('./package.json');
 
 async function makeRequest(options) {
   return new Promise((resolve, reject) => {
