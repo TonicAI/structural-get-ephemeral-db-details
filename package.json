@@ -6,14 +6,7 @@
   "scripts": {
     "package": "ncc build index.js -o dist"
   },
-  "keywords": [
-    "github",
-    "actions",
-    "tonic",
-    "ephemeral",
-    "database"
-  ],
-  "author": "Tonic",
+  "author": "Tonic.ai",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.1"
