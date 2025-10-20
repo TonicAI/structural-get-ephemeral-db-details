@@ -4,14 +4,11 @@ A GitHub Action to retrieve ephemeral database connection details from Tonic Str
 
 ## Inputs
 
-### `structural-url`
-**Optional** The Structural API URL (e.g., `https://your-instance.tonic.ai`), defaults to `https://app.tonic.ai`.
-
-### `structural-api-key`
-**Required** Your Structural API key.
-
-### `job-id`
-**Required** The ID of the Structural job that has an associated ephemeral database.
+| Input | Description | Required | Default |
+|-------|-------------|----------|---------|
+| `structural-url` | The Structural API URL (e.g., `https://your-instance.tonic.ai`) | No | `https://app.tonic.ai` |
+| `structural-api-key` | Your Structural API key | Yes | - |
+| `job-id` | The ID of the Structural job that has an associated ephemeral database | Yes | - |
 
 ## Outputs
 
