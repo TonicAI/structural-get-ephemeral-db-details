@@ -14,37 +14,19 @@ A GitHub Action to retrieve ephemeral database connection details from Tonic Str
 
 ### Connection Details
 
-### `hostname`
-The database hostname for connection.
-
-### `port`
-The database port for connection.
-
-### `database-name`
-The database name for connection.
-
-### `database-username`
-The database username for connection.
-
-### `database-password`
-The database password for connection.
-
-### `database-type`
-The type of database (e.g., MySql, Postgres).
+- `hostname`: The database hostname for connection.
+- `port`: The database port for connection.
+- `database-name`: The database name for connection.
+- `database-username`: The database username for connection.
+- `database-password`: The database password for connection.
+- `database-type`: The type of database (e.g., MySql, Postgres).
 
 ### Ephemeral Database Metadata
 
-### `database-entity-id`
-The ID of the database entity in Ephemeral.
-
-### `entity-name`
-The name of the ephemeral database entity.
-
-### `status`
-The current status of the database.
-
-### `raw-response`
-The full JSON response from the API.
+- `database-entity-id`: The ID of the database entity in Ephemeral.
+- `entity-name`: The name of the ephemeral database entity.
+- `status`: The current status of the database.
+- `raw-response`: The full JSON response from the API.
 
 ## Example Usage
 
