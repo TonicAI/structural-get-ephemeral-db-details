@@ -1,6 +1,6 @@
 # Get Ephemeral Database Details
 
-A GitHub Action to retrieve ephemeral database connection details from Tonic Structural after a data generation has completed.
+A GitHub Action to retrieve ephemeral database connection details from Tonic Structural using job id after a data generation has completed.
 
 ## Inputs
 
@@ -61,7 +61,7 @@ jobs:
     steps:
       - name: Get Ephemeral Database Details
         id: get-db
-        uses: yourusername/structural-get-ephemeral-db-details@v1
+        uses: TonicAI/structural-get-ephemeral-db-details@v1
         with:
           structural-url: ${{ secrets.STRUCTURAL_API_URL }}
           structural-api-key: ${{ secrets.STRUCTURAL_API_KEY }}
