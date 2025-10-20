@@ -61,7 +61,7 @@ jobs:
     steps:
       - name: Get Ephemeral Database Details
         id: get-db
-        uses: yourusername/ephemeral-get-db-details@v1
+        uses: yourusername/structural-get-ephemeral-db-details@v1
         with:
           structural-url: ${{ secrets.STRUCTURAL_API_URL }}
           structural-api-key: ${{ secrets.STRUCTURAL_API_KEY }}

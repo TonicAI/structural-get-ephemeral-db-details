@@ -1,5 +1,5 @@
 {
-  "name": "ephemeral-get-db-details",
+  "name": "structural-get-ephemeral-db-details",
   "version": "1.0.0",
   "description": "GitHub Action to retrieve Tonic Ephemeral database details",
   "main": "index.js",
