@@ -1,6 +1,6 @@
 name: 'Get Ephemeral Database Details'
 description: 'Retrieve ephemeral database connection details from Tonic Structural'
-author: 'Tonic'
+author: 'Tonic AI'
 branding:
   icon: 'database'
   color: 'blue'

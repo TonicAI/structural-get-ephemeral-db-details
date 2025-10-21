@@ -48,7 +48,7 @@ jobs:
 
       - name: Connect to Database
         run: |
-          echo "Database: ${{ steps.get-db.outputs.ephemeral-database-name }}"
+          echo "Database: ${{ steps.get-db.outputs.database-name }}"
           echo "Status: ${{ steps.get-db.outputs.status }}"
           echo "Host: ${{ steps.get-db.outputs.hostname }}:${{ steps.get-db.outputs.port }}"
 
