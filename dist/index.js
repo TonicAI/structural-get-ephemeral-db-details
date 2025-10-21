@@ -27520,7 +27520,7 @@ module.exports = parseParams
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"name":"structural-get-ephemeral-db-details","version":"1.0.0","description":"GitHub Action to retrieve Tonic Ephemeral database details","main":"index.js","scripts":{"package":"ncc build index.js -o dist"},"keywords":["github","actions","tonic","ephemeral","database"],"author":"Tonic","license":"MIT","dependencies":{"@actions/core":"^1.10.1"},"devDependencies":{"@vercel/ncc":"^0.38.1"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"name":"structural-get-ephemeral-db-details","version":"1.0.0","description":"GitHub Action to retrieve Tonic Ephemeral database details","main":"index.js","scripts":{"package":"ncc build index.js -o dist"},"author":"Tonic.ai","license":"MIT","dependencies":{"@actions/core":"^1.10.1"},"devDependencies":{"@vercel/ncc":"^0.38.1"}}');
 
 /***/ })
 
