@@ -1,5 +1,5 @@
 name: 'Get Ephemeral Database Details from Tonic Structural'
-description: 'Retrieve database connection details for a Tonic Ephemeral output database from Tonic Structural via Job ID using the Structural API.'
+description: 'Retrieve database connection details for a Tonic Ephemeral output database from Tonic Structural Generation by Job ID'
 author: 'Tonic AI'
 branding:
   icon: 'database'
